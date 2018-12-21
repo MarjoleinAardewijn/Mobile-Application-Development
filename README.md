@@ -1,2 +1,2 @@
-# Mobile-Application-Development
-Opdrachten van Mobile Application Development
+# Mobile Application Development
+Opdrachten van het vak: Mobile Application Development.
