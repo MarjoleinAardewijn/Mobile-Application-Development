@@ -1,0 +1,65 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <!--General styles-->
+    <style name="Layout_Match_Parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Title_Markup">
+        <item name="android:text">@string/title</item>
+        <item name="android:textSize">@dimen/title_font_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <!--ViewPager-->
+    <style name="Main_ViewPager">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--Recipe styles-->
+    <style name="Img_Style">
+        <item name="android:layout_width">@dimen/img_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/standard_start_end_margin</item>
+        <item name="android:layout_marginTop">@dimen/img_top_margin</item>
+        <item name="android:layout_marginEnd">@dimen/standard_start_end_margin</item>
+        <item name="android:src">@drawable/ic_launcher_background</item>
+    </style>
+
+    <style name="Recipe_Title" parent="Title_Markup">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/standard_start_end_margin</item>
+        <item name="android:layout_marginTop">@dimen/appbar_padding_top</item>
+        <item name="android:layout_marginEnd">@dimen/standard_start_end_margin</item>
+    </style>
+
+    <style name="Recipe_Ingredients">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/indent_start_margin</item>
+        <item name="android:layout_marginTop">@dimen/appbar_padding_top</item>
+        <item name="android:layout_marginEnd">@dimen/standard_start_end_margin</item>
+        <item name="android:text">@string/ingredients</item>
+    </style>
+
+</resources>
