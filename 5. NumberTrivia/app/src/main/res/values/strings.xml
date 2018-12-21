@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">NumberTrivia</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="loremipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in tellus pretium, ultricies ipsum nec, feugiat lectus.</string>
+    <string name="number">231</string>
+</resources>

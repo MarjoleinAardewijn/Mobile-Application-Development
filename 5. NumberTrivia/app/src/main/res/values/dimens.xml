@@ -1,0 +1,17 @@
+<resources>
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="none">0dp</dimen>
+    <dimen name="extra_small_margin">1dp</dimen>
+    <dimen name="small_margin">4dp</dimen>
+    <dimen name="standard_margin">8dp</dimen>
+    <dimen name="qoute_text_start_margin">135dp</dimen>
+
+    <dimen name="line_height">1dip</dimen>
+
+    <dimen name="normal_text">14sp</dimen>
+    <dimen name="large_text">64sp</dimen>
+
+    <dimen name="width_quote_number">110dp</dimen>
+    <dimen name="width_quote_text">250dp</dimen>
+</resources>
