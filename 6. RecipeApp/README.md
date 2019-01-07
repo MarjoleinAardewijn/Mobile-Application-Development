@@ -11,9 +11,9 @@ The app should look something like this (the users swipes through the recipes):
 
 **The ingredients are optional!**
 
-![alt text](https://lh3.googleusercontent.com/E6fAPT-Qj34YCZrFb57AN48ouScPgVrg-xdb_ZpDQg0NhpQSnXSw5rNoMyJHdyENmpS1Vc_IWbbs_xbN5oBUz9kJAQFmIFHfnFQwVAHhfoQCT3hrcEvsQMAMdXYy9DMgs6OcoxQ4)
-![alt text](https://lh6.googleusercontent.com/o8Q301cZHfR4czXNtxrOR-UpqB_PBmheCcMtBeXorq0X8zZ1g2N7BW5JPY2BKYbSN99YfgMzMA3bYOADoLwbRuRIXLVfHEJB67kt_XE-te1smHejsRgNsrz4PTE6sFHAHg0JAJZI)
-![alt text](https://lh5.googleusercontent.com/uP8LcZ0IcIrEjeFauneH7Rjy1QBWE_4cNAJhqhaLcyLk18WCyfwyl8aa41Heqix5GpRdgdkMFp8qWKLb8WYq87O5q00x5JLPuWJznfZ8eH-OqzpnRNXNtKTljPqQeFk7_o8f13q8)
+![recipe app 1](https://github.com/MarjoleinAardewijn/MobileApplicationDevelopment/blob/master/6.%20RecipeApp/recipe-app-1.png)
+![recipe app 2](https://github.com/MarjoleinAardewijn/MobileApplicationDevelopment/blob/master/6.%20RecipeApp/recipe-app-2.png)
+![recipe app 3](https://github.com/MarjoleinAardewijn/MobileApplicationDevelopment/blob/master/6.%20RecipeApp/recipe-app-3.png)
 
 ### Links:
 
