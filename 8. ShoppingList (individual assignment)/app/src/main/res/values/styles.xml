@@ -1,0 +1,153 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+<!-- ________Layout______________________________________________________________________________-->
+    <!--Styles for setting the widths and heights-->
+    <style name="Layout_Match_Parent">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">match_parent</item>
+    </style>
+
+    <style name="Layout_Wrap_Content">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Layout_Match_Wrap">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="Layout_0dp">
+        <item name="android:layout_width">@dimen/none</item>
+        <item name="android:layout_height">@dimen/none</item>
+    </style>
+
+    <style name="Layout_Button">
+        <item name="android:layout_width">@dimen/btn_width</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+<!-- ________Fab_________________________________________________________________________________-->
+    <!--Styles for all the Fabs-->
+    <style name="Style_Fab" parent="Layout_Wrap_Content">
+        <item name="android:layout_gravity">bottom|end</item>
+        <item name="android:layout_margin">@dimen/fab_margin</item>
+    </style>
+
+    <style name="Style_Fab.Add" parent="Style_Fab">
+        <item name="android:src">@drawable/ic_add_white_24dp</item>
+    </style>
+
+<!-- ________RecyclerView________________________________________________________________________-->
+    <!--Styles for all the recyclerViews-->
+    <style name="Style_RecyclerView" parent="Layout_0dp">
+        <item name="android:layout_margin">@dimen/default_margin</item>
+    </style>
+
+<!-- ________CheckBox____________________________________________________________________________-->
+    <!--Styles for all the checkboxes-->
+    <style name="Style_CheckBox" parent="Layout_Wrap_Content">
+        <item name="android:layout_marginStart">@dimen/default_margin</item>
+        <item name="android:layout_marginTop">@dimen/checkbox_margin</item>
+    </style>
+
+<!-- ________TextView___________________________________________________________________________-->
+    <!--Styles for all the TextViews-->
+    <style name="Style_TextView" parent="Layout_Wrap_Content">
+        <item name="android:layout_marginStart">@dimen/default_margin</item>
+        <item name="android:layout_marginEnd">@dimen/default_margin</item>
+    </style>
+
+    <style name="Style_TextView.Title" parent="Style_TextView">
+        <item name="android:layout_marginTop">@dimen/default_margin</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:text">@string/item_title</item>
+    </style>
+
+    <style name="Style_TextView.Date" parent="Style_TextView">
+        <item name="android:textSize">@dimen/default_text_size</item>
+        <item name="android:text">@string/item_date</item>
+    </style>
+
+    <style name="Style_TextView.QuoteTitle" parent="Style_TextView">
+        <item name="android:layout_marginTop">@dimen/quote_top_margin</item>
+        <item name="android:text">@string/quote_of_the_day</item>
+        <item name="android:textSize">@dimen/title_text_size</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Style_TextView.QuoteMessage" parent="Style_TextView">
+        <item name="android:layout_marginTop">@dimen/default_margin</item>
+        <item name="android:text">@string/loading_quote</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+<!-- ________TextInputLayouts____________________________________________________________________-->
+   <!--Styles for all the TextInputLayouts-->
+    <style name="Style_TextInputLayout" parent="Layout_Match_Wrap">
+        <item name="android:layout_marginStart">@dimen/side_text_input_margin</item>
+        <item name="android:layout_marginEnd">@dimen/side_text_input_margin</item>
+    </style>
+
+    <style name="Style_TextInputLayout.Title" parent="Style_TextInputLayout">
+        <item name="android:layout_marginTop">@dimen/top_text_input_margin</item>
+    </style>
+
+    <!--Floating label text style-->
+    <style name="MyHintText" parent="TextAppearance.AppCompat.Small">
+        <item name="android:textColor">@color/colorNormal</item>
+    </style>
+
+    <!--Input field style-->
+    <style name="MyEditText" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/colorNormal</item>
+        <item name="colorControlActivated">@color/colorAccent</item>
+    </style>
+
+<!-- ________EditText___________________________________________________________________________-->
+    <!--Styles for all the EditTexts-->
+    <style name="Style_EditText" parent="Layout_Match_Wrap">
+        <item name="android:theme">@style/MyEditText</item>
+    </style>
+
+    <style name="Style_EditText.Title" parent="Style_EditText">
+        <item name="android:hint">@string/item_title</item>
+    </style>
+
+<!-- ________Buttons_____________________________________________________________________________-->
+    <!--Styles for all the buttons-->
+    <style name="Style_Button" parent="Layout_Button">
+        <item name="android:layout_marginEnd">@dimen/default_margin</item>
+        <item name="android:layout_marginStart">@dimen/default_margin</item>
+        <item name="android:layout_marginTop">@dimen/default_margin</item>
+        <item name="android:text">@string/item_save</item>
+    </style>
+
+<!-- ________ImageViews__________________________________________________________________________-->
+    <!--Styles for all the ImageViews-->
+    <style name="Style_ImageView">
+        <item name="android:layout_width">@dimen/img_width</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginStart">@dimen/standard_start_end_margin</item>
+        <item name="android:layout_marginTop">@dimen/img_top_margin</item>
+        <item name="android:layout_marginEnd">@dimen/standard_start_end_margin</item>
+        <item name="android:src">@drawable/ic_launcher_background</item>
+    </style>
+
+</resources>

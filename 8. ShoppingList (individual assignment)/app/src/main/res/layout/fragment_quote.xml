@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    style="@style/Layout_Match_Parent"
+    tools:context=".View.Fragment.QuoteFragment"
+    android:id="@+id/fragment_layout">
+
+    <TextView
+        android:id="@+id/tv_quote_title"
+        style="@style/Style_TextView.QuoteTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_quote_message"
+        style="@style/Style_TextView.QuoteMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_quote_title" />
+
+</android.support.constraint.ConstraintLayout>
