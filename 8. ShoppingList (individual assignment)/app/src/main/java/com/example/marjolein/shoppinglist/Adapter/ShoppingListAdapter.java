@@ -1,6 +1,5 @@
 package com.example.marjolein.shoppinglist.Adapter;
 
-import android.arch.lifecycle.LiveData;
 import android.content.Context;
 import android.graphics.Paint;
 import android.support.annotation.NonNull;
@@ -9,7 +8,6 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.CheckBox;
-import android.widget.RadioButton;
 import android.widget.TextView;
 
 import com.example.marjolein.shoppinglist.Model.ShoppingList.ShoppingListItem;
@@ -72,7 +70,7 @@ public class ShoppingListAdapter extends RecyclerView.Adapter<ShoppingListAdapte
 
         ViewHolder(View itemView){
             super(itemView);
-            checkBox = itemView.findViewById(R.id.rb_shopping_list_item);
+            checkBox = itemView.findViewById(R.id.cb_shopping_list_item);
             title = itemView.findViewById(R.id.tv_item_title);
             date = itemView.findViewById(R.id.tv_item_date);
         }
@@ -95,7 +93,7 @@ public class ShoppingListAdapter extends RecyclerView.Adapter<ShoppingListAdapte
             public void onClick(View v){
                 boolean checked = ((CheckBox) v).isChecked();
                 switch (v.getId()){
-                    case R.id.rb_shopping_list_item:
+                    case R.id.cb_shopping_list_item:
                         if(checked){
                             holder.title.setPaintFlags(holder.title.getPaintFlags() | Paint.STRIKE_THRU_TEXT_FLAG);
                         } else {

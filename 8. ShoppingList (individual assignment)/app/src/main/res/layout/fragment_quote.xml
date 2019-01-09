@@ -8,14 +8,14 @@
 
     <TextView
         android:id="@+id/tv_quote_title"
-        style="@style/Style_TextView.QuoteTitle"
+        style="@style/Style_TextView_Quote.Title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/tv_quote_message"
-        style="@style/Style_TextView.QuoteMessage"
+        style="@style/Style_TextView_Quote.Message"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/tv_quote_title" />

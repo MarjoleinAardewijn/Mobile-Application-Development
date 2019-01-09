@@ -74,6 +74,11 @@
         <item name="android:layout_marginEnd">@dimen/default_margin</item>
     </style>
 
+    <style name="Style_TextView_Quote" parent="Layout_Wrap_Content">
+        <item name="android:layout_marginStart">@dimen/standard_start_end_margin</item>
+        <item name="android:layout_marginEnd">@dimen/standard_start_end_margin</item>
+    </style>
+
     <style name="Style_TextView.Title" parent="Style_TextView">
         <item name="android:layout_marginTop">@dimen/default_margin</item>
         <item name="android:textSize">@dimen/title_text_size</item>
@@ -85,15 +90,15 @@
         <item name="android:text">@string/item_date</item>
     </style>
 
-    <style name="Style_TextView.QuoteTitle" parent="Style_TextView">
+    <style name="Style_TextView_Quote.Title" parent="Style_TextView_Quote">
         <item name="android:layout_marginTop">@dimen/quote_top_margin</item>
         <item name="android:text">@string/quote_of_the_day</item>
         <item name="android:textSize">@dimen/title_text_size</item>
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="Style_TextView.QuoteMessage" parent="Style_TextView">
-        <item name="android:layout_marginTop">@dimen/default_margin</item>
+    <style name="Style_TextView_Quote.Message" parent="Style_TextView_Quote">
+        <item name="android:layout_marginTop">@dimen/between_text_input_margin</item>
         <item name="android:text">@string/loading_quote</item>
         <item name="android:gravity">center</item>
     </style>

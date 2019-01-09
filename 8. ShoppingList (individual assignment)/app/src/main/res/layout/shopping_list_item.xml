@@ -5,7 +5,7 @@
     style="@style/Layout_Match_Wrap">
 
     <CheckBox
-        android:id="@+id/rb_shopping_list_item"
+        android:id="@+id/cb_shopping_list_item"
         style="@style/Style_CheckBox"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -15,7 +15,7 @@
         style="@style/Style_TextView.Title"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/rb_shopping_list_item"
+        app:layout_constraintStart_toEndOf="@+id/cb_shopping_list_item"
         app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
@@ -23,7 +23,7 @@
         style="@style/Style_TextView.Date"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toEndOf="@+id/rb_shopping_list_item"
+        app:layout_constraintStart_toEndOf="@+id/cb_shopping_list_item"
         app:layout_constraintTop_toBottomOf="@+id/tv_item_title" />
 
 </android.support.constraint.ConstraintLayout>
