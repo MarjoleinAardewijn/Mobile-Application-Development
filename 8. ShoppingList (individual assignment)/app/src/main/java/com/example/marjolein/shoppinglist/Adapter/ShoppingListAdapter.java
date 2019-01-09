@@ -12,8 +12,6 @@ import android.widget.TextView;
 
 import com.example.marjolein.shoppinglist.Model.ShoppingList.ShoppingListItem;
 import com.example.marjolein.shoppinglist.R;
-import com.example.marjolein.shoppinglist.View.Fragment.ShoppingListFragment;
-import com.example.marjolein.shoppinglist.ViewModel.MainViewModel;
 
 import java.util.List;
 
