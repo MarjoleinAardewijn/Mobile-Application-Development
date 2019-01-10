@@ -2,6 +2,7 @@ package com.example.marjolein.shoppinglist.View.Fragment;
 
 import android.arch.lifecycle.Observer;
 import android.os.Bundle;
+import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.design.widget.FloatingActionButton;
 import android.support.v4.app.Fragment;
@@ -44,7 +45,13 @@ public class ShoppingListFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        View view = inflater.inflate(R.layout.fragment_shopping_list,container,false);
+        return inflater.inflate(R.layout.fragment_shopping_list,container,false);
+
+    }
+
+    @Override
+    public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        super.onViewCreated(view, savedInstanceState);
 
         // get the current fragment
         FragmentActivity fa = getActivity();
@@ -67,8 +74,6 @@ public class ShoppingListFragment extends Fragment {
         setFab(view);
         setItemTouchHelper();
         onFragmentResult();
-
-        return view;
     }
 
     // Set the adapter
